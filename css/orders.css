@@ -1,0 +1,23 @@
+.content_table{
+    width: 80%;
+    padding-left: 300px;
+    margin-left: 2px;
+    margin-right: 100px;
+}
+.main {
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    width: 100%;
+}
+table thead tr td,
+table tbody tr td{
+    
+    padding: 10px;
+    
+}
+.main table thead tr td {
+    font-weight: 600;
+    color: rgb(248, 170, 0);
+    line-height: 60px;
+}

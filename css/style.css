@@ -1,0 +1,250 @@
+
+
+.card {
+    margin-bottom: 20px;
+    border: none
+}
+
+.box {
+    border-radius: 5px;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    background: #dbdbdb;
+    ;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px
+}
+::placeholder{
+
+color:black;
+
+}
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+
+body{
+
+background-color:#f7f7f7;
+;
+
+}
+.Account{
+
+font-family: Open-Sans,Arial,sans-serif!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: inherit;
+    line-height: 1.3;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #666;
+    font-size:15px;
+    margin-left:5px;
+
+}
+
+#itemsCol{
+
+width:80px;
+height:320px;
+background-color:white;
+border-radius:5px;
+margin-left:15px;
+border:1px solid #dfdfdf;
+
+max-width:300px;
+}
+
+
+#ItemTitle{
+margin-left:60px;
+margin-top:50px;
+
+
+
+}
+
+#ItemImage{
+
+margin-top:15px;
+margin-left:70px;
+
+}
+#ItemButt{
+position:absolute;
+left : 100px;
+top:220px;
+border-radius:50px;
+
+}
+#ItemPrice{
+
+position:absolute;
+left : 134px;
+top:180px;
+color:orange;
+
+}
+
+#Items{
+ 
+ position:absolute;
+ right:150px;
+ margin-top:15px;
+ width:1000px;
+ 
+
+}
+
+
+.navigation{
+height:80px;
+background-color:white;
+display:felx;
+position:sticky;
+border-bottom:1px solid gray;
+
+}
+
+.login {
+
+
+    position:absolute;
+    top:200px;
+    right:290px;
+    width:900px;
+}
+.login input{
+
+    padding: 20px 15px 10px;
+    font-size: 0.8rem;
+    position: relative;
+    height: 45px;
+    top: 0;
+    border: 1px solid #eeeeee;
+    background: #FCFCFC;
+    width:400px;
+
+}
+.login ::placeholder {
+    color: rgb(114, 114, 114);
+    font-size: 1.5em;
+  }
+#BtLg{
+
+    width: 180px;
+    border-radius: 25px;
+    margin-left: 115px;;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #f0b039;
+
+  }
+
+  #BtLg:hover{
+
+    background-color: #ff9100;
+
+
+  }
+
+  .vl {
+    border-left: 1px solid rgb(216, 216, 216);
+    height: 500px;
+    position:absolute;
+    left :650px;
+    top:90px;
+    
+  }
+.inscri{
+
+    position:absolute;
+    left :740px;
+    top:307px;
+
+}
+
+.Ins input{
+
+    padding: 20px 15px 10px;
+    font-size: 0.8rem;
+    position: relative;
+    height: 45px;
+    top: 0;
+    border: 1px solid #9e9c9c;
+    background: #FCFCFC;
+    width:400px;
+
+}
+
+.Ins{
+position:absolute;
+left:500px;
+top:200px;
+
+}
+
+.Ins ::placeholder {
+    color: rgb(114, 114, 114);
+    font-size: 1.5em;
+  }
+
+
+

@@ -1,0 +1,210 @@
+<html>
+<head>
+
+<title>ClientB Dashboard</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="../fontawesome/css/all.css">
+<link rel="stylesheet" href="../css/inscri.css">
+<link rel="stylesheet" href="../css/adminlte.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/addProduct.css">
+</head>
+
+
+
+<body>
+
+<nav class="main-header navbar navbar-expand navbar-white navbar-light" >
+    <!-- Left navbar links -->
+    <ul class="navbar-nav" style="margin-left:250px;padding-bottom:15px;">
+      
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">
+          <i class="fas fa-home"></i>
+          <p>Home</p> 
+        </a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-envelope"></i>
+          <p>Messages</p>
+        </a>
+      </li>
+
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">
+        <i class="fas fa-bell"></i>
+        <p>Notification</p> 
+      </a>
+      </li>
+  
+      
+    </ul>
+
+  
+
+     
+  </nav>
+
+<aside class="main-sidebar sidebar-light-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../index3.html" class="brand-link">
+      <span class="brand-text font-weight-light">ClientB Admin Panel</span>
+      <p>Dashboard</p>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="images/avatar.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Alexander Pierce</a>
+        </div>
+      </div>
+
+   
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <i class="fas fa-house-user"></i>
+              <p>
+                  Dashboard
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="Orders.html" class="nav-link">
+              <i class="fas fa-database"></i>
+              <p>
+                  Orders
+              </p>
+            </a>
+          </li> 
+
+          <li class="nav-item">
+            <a href="Products.html" class="nav-link">
+              <i class="fas fa-list"></i>
+              <p>
+                  Products List
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-plus"></i>
+              <p>
+                  Add Product
+              </p>
+            </a>
+          </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-trash-alt"></i>
+              <p>
+                  Delete Product
+              </p>
+            </a>
+          </li>
+
+         <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-edit"></i>
+              <p>
+                  Edit Product
+              </p>
+            </a>
+          </li>
+         </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+
+
+
+<div class="AddForm">
+ 
+
+
+
+<form >
+  
+   <div class="md-form">
+  <textarea placeholder="Description du Produit" id="descriptionFrom" class="md-textarea form-control" rows="10" columns=""></textarea>
+ 
+</div>
+  
+  <div class="form-row">
+
+
+
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nom Produit">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Prix">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Quantite">
+    </div>
+
+
+
+  </div>
+
+<div class="form-row">
+    <div class="col">
+
+  
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>categorie</option>
+    <option value="elctro">Electronic</option>
+    <option value="vet">vetement</option>
+    <option value="sp">Sport</option>
+  </select>
+
+    </div>
+ 
+
+
+  </div>
+
+<div class="custom-file">
+    <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+    <div class="invalid-feedback">Example invalid custom file feedback</div>
+  
+  </div>
+  <div class="col">
+
+  <input type="submit" id="BtLg" value="Ajouter produit">
+</div>
+</form>
+
+</div>
+
+
+
+
+
+</body>
+</html>
